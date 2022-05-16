@@ -2,7 +2,7 @@
 ![alt text](https://www.cs.cornell.edu/projects/field-guide/static/images/pipeline.svg)
 ### Implementation for the ICCV 2021 paper. [[arXiv]](https://arxiv.org/abs/2108.10967)[[webpage]](https://www.cs.cornell.edu/projects/field-guide/)
 
-This implementation can be used to both 1) to perform field-guide like [question-answering ZSL]() and reproduce the results from the paper([for example]()).
+This implementation can be used to both 1) to perform field-guide like [question-answering ZSL](https://github.com/utkarshmall13/Field-Guide-ZSL/blob/main/scripts/run_single_experiment_cub.sh) and reproduce the results from the paper([for example](https://github.com/utkarshmall13/Field-Guide-ZSL/blob/main/scripts/exp4.2_cadavae.sh)).
 
 ### Requirements
 See requirements.txt for installation. It is recommended to use python3.9 as the code has been tested in python3.9.
@@ -39,7 +39,7 @@ data/
 ## Using the Code
 ---
 #### Training
-The [scripts]() directories provides useful commands for training and reproducing the results from the paper. 
+The [scripts](https://github.com/utkarshmall13/Field-Guide-ZSL/tree/main/scripts) directory provides useful commands for training and reproducing the results from the paper. 
 To train all the models for reproduction of the results use:
 ```
 bash train_models.sh {Dataset} # {Dataset} = CUB, SUN, AWA2
